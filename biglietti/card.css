@@ -1,0 +1,21 @@
+@page{size:91mm 61mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:91mm;height:61mm;background:#000}
+.page{width:91mm;height:61mm;position:relative;overflow:hidden;page-break-after:always;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#f2f4f8}
+.front{background:radial-gradient(120% 120% at 100% 0%,#1c2c5c 0%,#0e0f14 55%,#000 100%)}
+.back{background:#0e0f14}
+.glow{position:absolute;right:-18mm;top:-18mm;width:50mm;height:50mm;border-radius:50%;background:#2b59ff;opacity:.28;filter:blur(8mm)}
+.mono{position:absolute;left:11mm;top:12mm;width:15mm;height:15mm;border-radius:4mm;background:linear-gradient(135deg,#4d7bff,#2b59ff);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:6.2mm;letter-spacing:-.3mm;color:#fff}
+.brand{position:absolute;left:11mm;bottom:15mm}
+.brand h1{font-size:7.4mm;font-weight:800;letter-spacing:-.25mm;line-height:1}
+.brand h1 span{color:#4d7bff}
+.brand p{margin-top:2.2mm;font-size:2.7mm;letter-spacing:.5mm;text-transform:uppercase;color:#8a90a0}
+.bar{position:absolute;left:11mm;bottom:10mm;width:12mm;height:.7mm;background:#4d7bff;border-radius:1mm}
+.safe{position:absolute;left:3mm;top:3mm;right:3mm;bottom:3mm}
+.b-name{position:absolute;left:11mm;top:12mm}
+.b-name h2{font-size:5.4mm;font-weight:800;letter-spacing:-.15mm}
+.b-name p{margin-top:1.2mm;font-size:2.8mm;color:#4d7bff;letter-spacing:.3mm;text-transform:uppercase}
+.rows{position:absolute;left:11mm;bottom:12mm;font-size:3.1mm;line-height:1}
+.rows div{display:flex;align-items:center;margin-top:2.6mm}
+.rows i{display:inline-block;width:5mm;height:5mm;border-radius:1.4mm;background:#161821;border:.2mm solid #23262f;margin-right:2.6mm;color:#4d7bff;font-style:normal;font-size:2.6mm;text-align:center;line-height:4.6mm;font-weight:700}
+.qr{position:absolute;right:11mm;bottom:12mm;width:14mm;height:14mm;border:.3mm dashed #4d7bff;border-radius:2mm;display:flex;align-items:center;justify-content:center;font-size:1.9mm;color:#8a90a0;text-align:center;line-height:1.3}
